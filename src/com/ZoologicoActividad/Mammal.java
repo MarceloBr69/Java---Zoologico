@@ -1,10 +1,17 @@
 package com.ZoologicoActividad;
 
 public class Mammal {
-	private int energyLevel;
+	protected int energyLevel = 100;
 	
-	public void displayEnergy() { //Imprime nivel del gorila
-		System.out.println(energyLevel);	
+	public Mammal(int energyLevel){ //constructor
+		this.energyLevel = energyLevel;
+		
+	}
+	
+	
+	public int displayEnergy() { //Imprime nivel del gorila
+		System.out.println("El nivel de la energia es: " + energyLevel);
+		return energyLevel; 
 	}
 
 

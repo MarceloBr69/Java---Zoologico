@@ -4,7 +4,7 @@ public class GorillaTest {
 
 	public static void main(String[] args) {
 		
-		Gorilla gorila = new Gorilla();
+		Gorilla gorila = new Gorilla(100);
 		//lanza3
 		gorila.throwSomething();
 		gorila.throwSomething();
@@ -16,6 +16,9 @@ public class GorillaTest {
 		
 		//trepa
 		gorila.climb();
+		
+		
+		gorila.displayEnergy();
 	}
 
 }
