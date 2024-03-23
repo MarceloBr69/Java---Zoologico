@@ -16,9 +16,12 @@ public class GorillaTest {
 		
 		//trepa
 		gorila.climb();
-		
-		
+	
 		gorila.displayEnergy();
+	
+	
+	
+	
 	}
 
 }
